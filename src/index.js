@@ -6,12 +6,21 @@ import Footer from './components/footer';
 import ProjectBoard from './components/projectBoard'
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
+
+function App()
+{
+  return(
+  <>
     <Header />
     <ProjectBoard />
     <Footer />
-  </React.StrictMode>,
+  
+  
+  </>
+  )
+}
+ReactDOM.render(
+  <App />,
   document.getElementById('root')
 );
 
