@@ -13,7 +13,7 @@ var projectArray = [
                 In the end it uses python native library to simulate mouse click to catch and recast the line.`,
         "techList": `Tensorflow, Python, Tkinter, pyAudio, pyAutoGUI`,
         "gif": "Link to a gif",
-        "github": "Link to a gitHub"
+        "github": "https://github.com/Heeqcmt/fatCat"
     },
     {
         "name": "Finenance",
