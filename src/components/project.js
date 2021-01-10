@@ -13,10 +13,10 @@ export default class Project extends react.Component {
     render() {
         return (
 
-            <Jumbotron className="project" fluid data-aos="slide-right" data-aos-duration="1000" >
+            <Jumbotron className="project" fluid >
                 <Container>
                     <Row>
-                        <Col>
+                        <Col data-aos="slide-right" data-aos-duration="1000" >
                             <h1>{this.props.projectArray.name}</h1>
                             <div>{this.props.projectArray.desc}</div>
                             <br/>
@@ -24,7 +24,7 @@ export default class Project extends react.Component {
                             <br/>
                             <Button>GitHub</Button>
                         </Col>
-                        <Col>
+                        <Col data-aos="slide-left" data-aos-duration="1000" >
                             <img className="showCase" src={testImage}/>
                         </Col>
                     
