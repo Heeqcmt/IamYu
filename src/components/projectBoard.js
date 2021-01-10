@@ -23,7 +23,7 @@ var projectArray = [
                 Finenance records the bill and assign me an amount of money to payback.`,
         "techList": `Swift`,
         "gif": "Link to a gif",
-        "github": "Link to a gitHub"
+        "github": "https://github.com/Heeqcmt/Finenance_iOS"
     },
     {
         "name": "Meet the Ontario Parties",
@@ -33,7 +33,7 @@ var projectArray = [
                 This is a full stack project. I wrote everything from data scrapping to database management, to API, to frontend and dealing with AWS services.`,
         "techList": `Python, Beautiful Soup 4, Javascript, ReactJS, AWS Dynamodb, AWS Lambda, AWS API gateway`,
         "gif": metop_final,
-        "github": "Link to a gitHub"
+        "github": "https://github.com/Heeqcmt/opie_front"
     }
 
 ]

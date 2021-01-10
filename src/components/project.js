@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
+
 import './components.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -22,7 +23,7 @@ export default class Project extends react.Component {
                             <h5>Technology used</h5>
                             <div>{this.props.project.techList}</div>
                             <br/>
-                            <Button>GitHub</Button>
+                            <Button onClick={()=>window.open(this.props.project.github,"_blank")}>GitHub</Button>
                         </Col>
                         <Col data-aos="slide-left" data-aos-duration="1000" >
                             <img className="showCase" src={this.props.project.gif}/>
