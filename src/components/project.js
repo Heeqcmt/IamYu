@@ -17,10 +17,11 @@ export default class Project extends react.Component {
                 <Container>
                     <Row>
                         <Col data-aos="slide-right" data-aos-duration="1000" >
-                            <h1>{this.props.projectArray.name}</h1>
-                            <div>{this.props.projectArray.desc}</div>
+                            <h1>{this.props.project.name}</h1>
+                            <div>{this.props.project.desc}</div>
                             <br/>
-                            <div>{this.props.projectArray.techList}</div>
+                            <h5>Technology used</h5>
+                            <div>{this.props.project.techList}</div>
                             <br/>
                             <Button>GitHub</Button>
                         </Col>
