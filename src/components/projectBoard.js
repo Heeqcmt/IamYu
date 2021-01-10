@@ -1,6 +1,7 @@
 import { findAllByTitle, render } from '@testing-library/react';
 import react, { Component } from 'react';
 import Project from './project';
+import metop_final from '../showCaseImages/metop_final.gif';
 
 
 var projectArray = [
@@ -31,7 +32,7 @@ var projectArray = [
                 For people who already made on their mind, it is a good way to stay informed about the events host by each parties.
                 This is a full stack project. I wrote everything from data scrapping to database management, to API, to frontend and dealing with AWS services.`,
         "techList": `Python, Beautiful Soup 4, Javascript, ReactJS, AWS Dynamodb, AWS Lambda, AWS API gateway`,
-        "gif": "Link to a gif",
+        "gif": metop_final,
         "github": "Link to a gitHub"
     }
 

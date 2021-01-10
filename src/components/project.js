@@ -4,7 +4,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
-import testImage from "../showCaseImages/testImage.png";
 import './components.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -26,7 +25,7 @@ export default class Project extends react.Component {
                             <Button>GitHub</Button>
                         </Col>
                         <Col data-aos="slide-left" data-aos-duration="1000" >
-                            <img className="showCase" src={testImage}/>
+                            <img className="showCase" src={this.props.project.gif}/>
                         </Col>
                     
                     </Row>
