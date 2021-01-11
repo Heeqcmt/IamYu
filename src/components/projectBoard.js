@@ -2,6 +2,8 @@ import { findAllByTitle, render } from '@testing-library/react';
 import react, { Component } from 'react';
 import Project from './project';
 import metop_final from '../showCaseImages/metop_final.gif';
+import finenance_demo from '../showCaseImages/finenance_demo.gif';
+import fatCat_demo from '../showCaseImages/fatCat_demo.gif'
 
 
 var projectArray = [
@@ -12,7 +14,7 @@ var projectArray = [
                 Then it uses audio stream to figure out when fish is caught.
                 In the end it uses python native library to simulate mouse click to catch and recast the line.`,
         "techList": `Tensorflow, Python, Tkinter, pyAudio, pyAutoGUI`,
-        "gif": "Link to a gif",
+        "gif": fatCat_demo,
         "github": "https://github.com/Heeqcmt/fatCat"
     },
     {
@@ -22,7 +24,7 @@ var projectArray = [
                 For example, when I go out with my girlfriend she wants to split the bill 50/50. 
                 Finenance records the bill and assign me an amount of money to payback.`,
         "techList": `Swift`,
-        "gif": "Link to a gif",
+        "gif": finenance_demo,
         "github": "https://github.com/Heeqcmt/Finenance_iOS"
     },
     {
