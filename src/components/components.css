@@ -1,6 +1,15 @@
-
+.showCase
+{
+    margin-left:auto;
+}
 
 .banner
 {
     height:75vh;
+    text-align: center;
+}
+
+.project
+{
+    overflow: auto;
 }
