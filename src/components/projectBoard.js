@@ -1,5 +1,5 @@
-import { findAllByTitle, render } from '@testing-library/react';
-import react, { Component } from 'react';
+
+import react from 'react';
 import Project from './project';
 import metop_final from '../showCaseImages/metop_final.gif';
 import finenance_demo from '../showCaseImages/finenance_demo.gif';
