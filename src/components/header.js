@@ -8,6 +8,7 @@ export default function Header()
     return (
         <Jumbotron className="banner">
             <h1 > I am Yu</h1>
+            <h2>Yumingzhang94@gmail.com</h2>
         </Jumbotron>
 
     );
