@@ -38,12 +38,15 @@ class About extends React.Component {
           id: "second-p-about",
           content:
             `This is reflected in my portfolios. Most of the technologies that I used in the projects are self-taught.
-            The projects also covers a wide range of applications, from WebApps to desktop apps, from androids to iOS.`
+            The projects also covers a wide range of applications, from WebApps to iOS apps. From simple notebook to machine learning.
+            The passion for problem solving drives the creatation of those projects. I am excited to learn new techniques for problem solving.`
         },
         {
           id: "third-p-about",
           content:
-            ""
+            `Not only I studied in different areas, I aslo worked part-time in a very diversity settings.
+            I have worked with chemists, nurses, designers, line cooks, grocers and warehouse employees. I was comfortable in all environments and had good standing with peers and managers alike.
+            My past experience combined with my passion for technologies enables me to quicky fit into your organization culturly and technically.`
         }
       ]
     };
