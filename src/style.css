@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-  color: #0078ff;
+  color: pink;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -31,7 +31,7 @@ a:hover {
 }
 
 .color-a {
-  color: #0078ff;
+  color: pink;
 }
 
 .color-d {
@@ -82,7 +82,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: beige;
 }
 
 .overlay-mf {
@@ -152,7 +152,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: beige;
   margin: 0 auto;
 }
 
@@ -171,7 +171,7 @@ a:hover {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
+  background-color: beige;
   width: 100px;
   bottom: -12px;
 }
@@ -473,15 +473,15 @@ NAVBAR
 }
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #0078ff;
+  color:black;
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #0078ff;
+  background-color: black;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #0078ff;
+  color: black;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
